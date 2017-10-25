@@ -17,10 +17,10 @@ os.system("espeak 'Hey,My name is Autobot. '")
 from datetime import datetime
 response = os.system("ping -c 1 google.com")
 if response == 0:
-    print('You internet is working properly')
-    os.system("espeak 'Sir, Your internet is working properly'")
+    print('Sir, your internet is working properly')
+    os.system("espeak 'Sir, your internet is working properly'")
 else:
-    print('Sir, your internet is not working')
+    print('Sir, your internet is not working. Going ahead, is waste, of time.')
     os.system("espeak ' Internet is not working. Going ahead, is waste, of time.'")
 print("Current time is ",str(datetime.now()))
 os.system("espeak 'Welcome'")
@@ -28,10 +28,10 @@ reaction = 'y'
 
 
 while reaction == "y":
-	print('\n\tWhat you want me to do')
-	os.system("espeak 'What you want me to do'")
+	print('\n\tWhat you want me to do?')
+	os.system("espeak 'What you want me to do?'")
 	print('\nI can\n\nopenfb\nopengmail\nsend_wtsp_msg\nwhoislookup\ngithubsearch\nsearchgoogle')
-	os.system("espeak 'I can.open facebook. open gmail. send whatsapp messages. search on who, is lookup. github search. Search google.'" )
+	os.system("espeak 'I can. open facebook. open gmail. send whatsapp messages. search on who, is lookup. github search. Search google.'" )
 	task = input('\t')
 	import pyautogui, time
 
@@ -42,7 +42,7 @@ while reaction == "y":
 		import time
 		from selenium import webdriver
 		from selenium.webdriver.common.keys import Keys
-		os.system('espeak "Enter email and Password"')
+		os.system('espeak "Please enter email and Password"')
 		email_ = input("Enter email")
 		pass_ = input("Enter password")
 		browser = webdriver.Chrome()
@@ -107,7 +107,7 @@ while reaction == "y":
 		if ready == 'y':
 			print('After scanning QR code click on person whom who want to send the message')
 			messa = input('Enter the message, Master:  ')
-			print('I will ask you later for no of messages, Master')
+			print('I will ask you later for the number of messages, Master')
 			print("INITIALISING...")
 			browser = webdriver.Chrome()
 			browser.get('https://web.whatsapp.com')
