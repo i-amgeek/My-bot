@@ -1,5 +1,5 @@
 """
-Thanks, You came here to check me. Let me describe my working-
+Thanks You came here to check me. Let me describe my working-
 1. User will enter one of the pre-defined task.
 3. Chrome Webdriver will be opened.
 4. User wiil be asked for username and password if required.
