@@ -1,4 +1,4 @@
-# My-bot
+# My_bot
 
 # Description
 A web crawler using selenium.
